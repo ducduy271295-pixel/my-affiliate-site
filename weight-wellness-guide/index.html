@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Daily Habits for Healthy Weight Wellness</title>
+  <meta name="description" content="A gentle educational guide about hydration, balanced meals, movement, rest, and wellness support options for adults interested in healthy weight management." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Simple Daily Habits for Healthy Weight Wellness" />
+  <meta property="og:description" content="A gentle educational guide about daily habits for adults interested in balanced weight wellness routines." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root{
+      --blue:#1769aa;
+      --blue-dark:#0f355f;
+      --blue-soft:#eaf7ff;
+      --cyan:#19b8d8;
+      --mint:#e9fbf7;
+      --cream:#fffaf2;
+      --text:#19324a;
+      --muted:#5f7489;
+      --line:#d7edf5;
+      --shadow:0 24px 70px rgba(15,53,95,.11);
+      --radius:28px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:linear-gradient(180deg,#fbfeff,#f5fbff 50%,#fffaf2);color:var(--text);line-height:1.7}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:min(1120px,calc(100% - 36px));margin:auto}
+    .nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;gap:12px;align-items:center;font-weight:900;color:var(--blue-dark)}
+    .logo{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--cyan),var(--blue));display:grid;place-items:center;color:white;box-shadow:0 12px 28px rgba(25,184,216,.28)}
+    .brand small{display:block;font-weight:600;color:var(--muted);margin-top:-3px}
+    .nav-links{display:flex;gap:30px;color:#557087;font-weight:650;font-size:14px}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:999px;border:1px solid var(--line);font-weight:850;color:var(--blue-dark);background:white}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(135deg,var(--blue),var(--cyan));color:white;padding:16px 24px;border-radius:999px;font-weight:900;box-shadow:0 16px 34px rgba(23,105,170,.22)}
+    .btn.alt{background:white;color:var(--blue-dark);border:1px solid var(--line);box-shadow:none}
+    .hero{padding:68px 0 48px}
+    .hero-card{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center;padding:50px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(135deg,#fff,#eaf8ff);box-shadow:var(--shadow);overflow:hidden;position:relative}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:999px;background:white;border:1px solid var(--line);font-size:13px;font-weight:900;color:var(--blue-dark)}
+    .dot{width:9px;height:9px;border-radius:50%;background:var(--cyan)}
+    h1{font-size:clamp(42px,5vw,66px);line-height:1.02;margin:20px 0 20px;color:var(--blue-dark);letter-spacing:-2.5px}
+    h2{font-size:clamp(30px,3.5vw,44px);line-height:1.12;margin:0 0 14px;color:var(--blue-dark);letter-spacing:-1px}
+    h3{margin:0 0 8px;color:var(--blue-dark)}
+    p{margin:0 0 18px;color:var(--muted);font-size:17px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.fine{font-size:13px;color:#70869b;margin-top:16px}
+    .illustration{min-height:430px;border-radius:24px;background:linear-gradient(135deg,#e2f7ff,#ffffff);border:1px solid var(--line);position:relative;overflow:hidden;display:grid;place-items:center}
+    .person{width:270px;height:310px;border-radius:140px 140px 50px 50px;background:linear-gradient(180deg,#4cb7c9,#1769aa);position:relative;box-shadow:0 30px 50px rgba(23,105,170,.18)}
+    .person:before{content:"";position:absolute;width:120px;height:120px;background:#f3c7a0;border-radius:50%;top:-55px;left:75px;box-shadow:0 0 0 18px #d7edf5}.person:after{content:"";position:absolute;width:54px;height:42px;background:white;border-radius:10px;top:110px;left:108px;box-shadow:20px 6px 0 -6px transparent}
+    .bubble{position:absolute;border-radius:50%;background:rgba(25,184,216,.14)}.b1{width:170px;height:170px;left:-40px;bottom:30px}.b2{width:140px;height:140px;right:30px;top:40px;background:rgba(255,196,105,.18)}
+    .section{padding:36px 0}.panel{padding:38px;border:1px solid var(--line);border-radius:24px;background:white;box-shadow:0 14px 45px rgba(15,53,95,.06)}
+    .intro{display:grid;grid-template-columns:92px 1fr;gap:22px}.icon{width:72px;height:72px;border-radius:22px;background:var(--blue-soft);display:grid;place-items:center;font-size:32px;color:var(--blue)}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:22px}.card{padding:24px;border:1px solid var(--line);border-radius:22px;background:#fff;box-shadow:0 12px 32px rgba(15,53,95,.06)}.card .mini{width:54px;height:54px;border-radius:18px;background:linear-gradient(135deg,var(--blue-soft),var(--mint));display:grid;place-items:center;font-size:26px;margin-bottom:14px}.card p{font-size:14px;margin:0}
+    .habit-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:15px;margin-top:22px}.habit{overflow:hidden;border:1px solid var(--line);border-radius:22px;background:white;box-shadow:0 12px 32px rgba(15,53,95,.06)}.photo{height:132px;background:linear-gradient(135deg,#dff7ff,#fff4df);display:grid;place-items:center;font-size:46px;position:relative}.num{position:absolute;bottom:-17px;width:36px;height:36px;border-radius:50%;background:var(--blue);color:white;display:grid;place-items:center;font-weight:900;border:4px solid white}.habit div.txt{padding:26px 16px 18px;text-align:center}.habit p{font-size:13px;margin:0}.habit h3{font-size:16px}
+    .product{display:grid;grid-template-columns:.85fr 1.15fr;gap:32px;align-items:center;background:linear-gradient(135deg,#f4fbff,#fffaf2)}.bottle-wrap{min-height:330px;border-radius:24px;background:radial-gradient(circle at 30% 30%,#dff9ff,transparent 45%),linear-gradient(135deg,#fff,#eaf8ff);display:grid;place-items:center;position:relative;overflow:hidden}.bottle{width:170px;height:250px;background:white;border-radius:32px 32px 26px 26px;box-shadow:0 26px 48px rgba(23,105,170,.2);position:relative;border:1px solid #e2eef4}.bottle:before{content:"";position:absolute;width:110px;height:44px;left:30px;top:-34px;background:#fff;border-radius:18px 18px 6px 6px;border:1px solid #e2eef4}.label{position:absolute;left:22px;right:22px;top:72px;height:116px;border-radius:18px;background:linear-gradient(135deg,var(--blue),var(--cyan));color:white;display:grid;place-items:center;text-align:center;font-weight:900}.label span{display:block;font-size:15px;letter-spacing:2px;margin-top:4px}.check{display:flex;gap:12px;align-items:flex-start;margin:12px 0;font-weight:850;color:var(--blue-dark)}.check i{width:24px;height:24px;border-radius:50%;background:#ddfbf7;color:#0b8c92;display:grid;place-items:center;font-style:normal;flex:0 0 auto}
+    .notice{border-left:6px solid #ffc46b;background:#fff7e8;padding:20px;border-radius:18px;color:#6b4b18}.notice p{font-size:14px;margin:0;color:#6b4b18}.cta{display:flex;align-items:center;justify-content:space-between;gap:24px;background:linear-gradient(135deg,#eaf8ff,#fff)}footer{padding:28px 0;background:var(--blue-dark);color:white;text-align:center;font-size:13px}footer span{opacity:.8;margin:0 18px}
+    @media(max-width:900px){.hero-card,.product{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.habit-grid{grid-template-columns:repeat(2,1fr)}.nav-links{display:none}.hero-card{padding:28px}.cta{flex-direction:column;align-items:flex-start}.intro{grid-template-columns:1fr}}
+    @media(max-width:520px){.cards,.habit-grid{grid-template-columns:1fr}h1{font-size:40px}.illustration{min-height:320px}.person{transform:scale(.75)}.wrap{width:min(100% - 22px,1120px)}}
+  </style>
+</head>
+<body>
+  <header class="nav"><div class="wrap nav-inner"><a class="brand" href="/"><span class="logo">💧</span><span>Wellness Guide<small>Healthy weight habits</small></span></a><nav class="nav-links"><a href="#habits">Daily Habits</a><a href="#support">Support Option</a><a href="#note">Important Note</a></nav><a class="pill" href="/go/hydrolean">Official Info</a></div></header>
+  <main>
+    <section class="hero wrap"><div class="hero-card"><div><span class="badge"><span class="dot"></span> Educational wellness guide</span><h1>Simple Daily Habits for Healthy Weight Wellness</h1><p>Small daily choices can make a meaningful difference. Explore gentle habits around hydration, balanced meals, movement, rest, and wellness support options for adults who want to care for their routine more mindfully.</p><div class="hero-actions"><a class="btn" href="/go/hydrolean">Learn More on the Official Website →</a><a class="btn alt" href="#habits">Read the habits</a></div><div class="fine">This page is informational and does not provide medical advice.</div></div><div class="illustration" aria-label="Healthy lifestyle illustration"><div class="bubble b1"></div><div class="bubble b2"></div><div class="person"></div></div></div></section>
+    <section class="section wrap"><div class="panel intro"><div class="icon">⚖️</div><div><h2>Why Weight Wellness Matters</h2><p>Weight wellness is connected with daily routines such as hydration, meal balance, movement, sleep, and consistency. A practical approach focuses on small steps that feel realistic and sustainable.</p><p>The goal is not extreme promises. A better approach is to build healthy habits, stay informed, and review wellness support options through official sources before making a decision.</p></div></div></section>
+    <section class="section wrap"><h2 style="text-align:center">Common Reasons People Pay More Attention to Weight Wellness</h2><div class="cards"><div class="card"><div class="mini">💧</div><h3>Hydration habits</h3><p>Many adults want simple ways to stay more mindful about water intake.</p></div><div class="card"><div class="mini">🥗</div><h3>Meal balance</h3><p>Balanced meals can support a steadier daily wellness routine.</p></div><div class="card"><div class="mini">🚶</div><h3>Less movement</h3><p>Busy schedules may make it harder to stay active throughout the day.</p></div><div class="card"><div class="mini">🌙</div><h3>Sleep & stress</h3><p>Poor sleep and stress can affect energy, appetite, and consistency.</p></div></div></section>
+    <section id="habits" class="section wrap"><h2 style="text-align:center">5 Daily Habits That May Support Healthy Weight Management</h2><div class="habit-grid"><div class="habit"><div class="photo">💧<span class="num">1</span></div><div class="txt"><h3>Drink water mindfully</h3><p>Build simple hydration reminders into your daily routine.</p></div></div><div class="habit"><div class="photo">🥗<span class="num">2</span></div><div class="txt"><h3>Eat balanced meals</h3><p>Include protein, fiber, vegetables, and healthy fats when possible.</p></div></div><div class="habit"><div class="photo">🚶<span class="num">3</span></div><div class="txt"><h3>Move gently</h3><p>Short walks and light movement can support consistency.</p></div></div><div class="habit"><div class="photo">😴<span class="num">4</span></div><div class="txt"><h3>Prioritize sleep</h3><p>Restful sleep supports general wellness and daily energy.</p></div></div><div class="habit"><div class="photo">📘<span class="num">5</span></div><div class="txt"><h3>Review support options</h3><p>Stay informed and review product details from official sources.</p></div></div></div></section>
+    <section id="support" class="section wrap"><div class="panel product"><div class="bottle-wrap"><div class="bottle"><div class="label">HydroLean XT<span>WELLNESS SUPPORT</span></div></div></div><div><span class="badge"><span class="dot"></span> Support option to review</span><h2>Learn About HydroLean XT Through the Official Website</h2><p>HydroLean XT is presented as a supplement option for adults interested in healthy weight wellness as part of a balanced lifestyle. Before choosing any supplement, review the full ingredients, usage directions, policies, and official product details carefully.</p><div class="check"><i>✓</i><span>Designed for adults interested in healthy weight support</span></div><div class="check"><i>✓</i><span>Fits alongside hydration, balanced meals, and movement habits</span></div><div class="check"><i>✓</i><span>Best reviewed through the official product website</span></div><div class="check"><i>✓</i><span>Results and experiences may vary by individual</span></div><p style="margin-top:22px"><a class="btn" href="/go/hydrolean">Visit the Official HydroLean XT Website →</a></p></div></div></section>
+    <section id="note" class="section wrap"><div class="notice"><p><strong>Important:</strong> This page is for informational purposes only and is not medical advice. HydroLean XT is not intended to diagnose, treat, cure, or prevent any disease. Results may vary. Always review official product information and consult a qualified professional if you have health concerns.</p></div></section>
+    <section class="section wrap"><div class="panel cta"><div><h2>Ready to learn more?</h2><p>Visit the official website to explore product details, ingredients, usage information, and current availability.</p></div><a class="btn" href="/go/hydrolean">Check Official Information →</a></div></section>
+  </main>
+  <footer><span>Affiliate Disclosure: This page contains affiliate links.</span><span>For educational purposes only.</span></footer>
+</body>
+</html>
