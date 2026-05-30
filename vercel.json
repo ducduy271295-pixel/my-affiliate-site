@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/go/audifort",
+      "destination": "https://6f5c063nskmf2l6brlohlmstz3.hop.clickbank.net/?&traffic_source=facebook&traffic_type=traphi",
+      "permanent": false
+    }
+  ]
+}
