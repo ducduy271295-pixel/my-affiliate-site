@@ -1,17 +1,14 @@
-HUONG DAN UP LEN VERCEL
+HYDROLEAN XT LANDING - VERCEL/GITHUB STRUCTURE
 
-Cau truc file dung:
-- index.html
-- vercel.json
-- hearing-wellness-after-40/index.html
-- go/audifort/index.html
+Upload everything inside this folder to your GitHub repo root:
 
-Link landing sau khi up:
-https://tenmiencuaban.com/hearing-wellness-after-40
+index.html
+weight-wellness-guide/index.html
+go/hydrolean/index.html
+README.txt
 
-Link redirect affiliate:
-https://tenmiencuaban.com/go/audifort
+After Vercel deploy:
+https://duyduckfashion.click/weight-wellness-guide
+https://duyduckfashion.click/go/hydrolean
 
-Luu y:
-- Khi upload len Vercel, hay upload CAC FILE/THU MUC NAM BEN TRONG thu muc audifort_vercel_daydu, khong upload bi long them thu muc cha.
-- Link chay ads nen dung /hearing-wellness-after-40, khong dung /go/audifort.
+Run ads to /weight-wellness-guide, not directly to /go/hydrolean.
